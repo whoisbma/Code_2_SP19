@@ -1,3 +1,5 @@
+// bryan ma for code 2 sp 19 A
+
 Player player;
 Ball ball;
 Brick[][] bricks = new Brick[10][5];
@@ -25,8 +27,6 @@ void draw() {
   ball.update();
   ball.display();
 
-
-  // does it make sense for ball to own this?
   if (ball.pos.x > player.x - player.w/2 && ball.pos.x < player.x + player.w/2 &&
     ball.pos.y > player.y - player.h/2 && ball.pos.y < player.y + player.h/2) {
       
