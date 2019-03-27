@@ -1,0 +1,17 @@
+{
+  "descriptions": [
+    "You wake up in Code 2 class and don't know what is going on",
+    "your eyelids feel so heavy, and you fail to wake up",
+    "you feel enlightened by the answer, but still fall asleep"
+  ],
+  "options": [
+    ["try to wake up", "ask a question"],
+    ["you sleep"],
+    ["struggle to stay awake", "enjoy the sweet surrender of sleep"]
+  ],
+  "optionTargets": [
+    [1, 2],
+    [0],
+    [1, 0],
+  ]
+}
