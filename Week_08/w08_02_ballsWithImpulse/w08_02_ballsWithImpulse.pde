@@ -1,3 +1,5 @@
+// bryan ma for code 2 sp 19
+
 ArrayList<Ball> balls = new ArrayList<Ball>();
 PVector gravity = new PVector(0, 0.2);
 
